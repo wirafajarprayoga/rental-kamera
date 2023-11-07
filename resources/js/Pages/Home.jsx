@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, Head } from '@inertiajs/react';
 import Box from "@/Components/Box";
+import logo from "../../../public/Logo.png"
+
 
 
 const Home = () => {
@@ -15,7 +17,7 @@ const Home = () => {
                 </ul>
             </div>
             <div className="border w-4/5 p-14 grid grid-cols-4 gap-4">
-                <Box title={'Kamera 1'}/>
+                <Box title={'Kamera 1'} imageUrl={logo}/>
                 <Box title={'Kamera 2'}/>
                 <Box title={'Kamera 3'}/>
                 <Box title={'Kamera 4'}/>
